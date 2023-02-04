@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding: 0;
+    user-select: none;
+}
+.navbar{
+    height: 55px;
+    width:100%;
+    /* background-color:black;  */
+    padding-left: 20px;
+    position: fixed;
+    z-index: 1;
+}
+.avatar{
+    width:48px;
+    cursor: pointer;
+    
+}
+.top-container{
+    width: 100%;
+    height:700px;
+    background-color: #FFF5E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle-container{
+    width:100%;
+    height:700px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.tagline{
+    position: relative;
+    left:70px;
+    color:#736144;
+}
+
+
+h1{
+    font-family: 'Great Vibes', cursive;
+    padding: 10px;
+    font-size: 60px;
+    color:#736144;
+}
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+    color:#736144;
+}
+.skill-image-hacking{
+    width:160px;
+    float: left;
+}
+.skill-image-web{
+    width:160px;
+    float: right;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    padding-top: 10px;
+    color:#736144;
+}
+.hacking-skill{
+    position: absolute;
+    padding-top: 64px;
+}
+.skill-content{
+    position: relative;
+    top:15px;
+}
+.web-skill{
+    position: absolute;
+    padding-top: 281px;
+}
+.hacking-skill2{
+    position: absolute;
+    top: 1179px;
+
+}
+.footer-container{
+    width:100%;
+    height:45px;
+    background-color: #F2E8D8;
+    position: sticky;
+
+}
+p{
+    font-family: 'EB Garamond', serif;
+    color:black;
+}
+.all-icons{
+    display: flex;
+    justify-content: center;    
+}
+.icons{
+    width:33px;
+    padding: 5px;
+}
+.texting{
+    display: flex;
+    align-items: center;
+    padding-top:10px;
+}
+.links-nodec{
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width: 1000px){
+    .footer-container{
+        width:100%;
+        height:45px;
+        background-color: #F2E8D8;
+        position: absolute;
+        bottom:0;
+    
+    }
+}
+.side-bar{
+height:100%;
+width:289px;
+background-color: black;
+position: absolute;
+position: fixed;
+z-index:3;
+visibility: hidden;
+transition:0.25s ease-in-out;
+}
+
+.profile-pic{
+    width:114px;
+}
+.profile-photo{
+    width:289px;
+    height:206px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.X{
+    width:30px;
+    padding-top: 10px;
+    padding-right: 10px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
